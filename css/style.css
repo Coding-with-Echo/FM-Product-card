@@ -5,7 +5,7 @@
 }
 
 :root {
-  --color-primary: hsl(158, 36%, 37%);
+  --color-primary: #3d8168;
   --color-background: hsl(30, 38%, 92%);
   --color-accent: hsl(0, 0%, 100%);
   --color-heading: hsl(212, 21%, 14%);
@@ -42,6 +42,29 @@ h2 {
 h3 {
   font-size: 2rem;
 }
+
+/* button */
+.btn {
+  padding: 1.5rem 9.5rem;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn {
+  color: var(--color-accent);
+  background: var(--color-primary);
+}
+
+.btn--block {
+  width: 100%;
+}
+
+.btn__icon {
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
 /* attribution */
 .attribution {
   font-size: 11px;
