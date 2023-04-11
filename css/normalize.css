@@ -21,6 +21,7 @@ html {
  */
 
 body {
+  -webkit-font-smoothing: antialiased;
   margin: 0;
 }
 
@@ -174,7 +175,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +186,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -346,4 +349,28 @@ template {
 
 [hidden] {
   display: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+html,
+body {
+  height: 100%;
 }

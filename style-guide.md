@@ -12,7 +12,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Dark cyan: hsl(158, 36%, 37%) primary
-- Cream: hsl(30, 38%, 92%) accent
+- Cream: hsl(30, 38%, 92%) body
 
 ### Neutral
 
